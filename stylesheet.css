@@ -5,3 +5,7 @@ html {
 body {
   display: grid;
 }
+
+header {
+  background-color: brown;
+}
