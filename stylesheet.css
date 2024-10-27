@@ -34,16 +34,26 @@ main {
   gap: 0.5rem;
 }
 
+main p {
+  font-size: 1.6rem;
+}
 #home-section {
   display: grid;
   background-color: #dab94e96;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 7rem 31rem;
 }
 
 #home-section h2 {
   display: flex;
   justify-content: center;
+  font-size: 2.5rem;
+  height: 25px;
+}
+
+#home-section img {
+  width: 75%;
+  justify-self: center;
 }
 
 #about-section {
@@ -56,11 +66,26 @@ main {
   background-color: #55db9896;
 }
 
-#adverts-section {
+.adverts {
   display: grid;
   background-color: #3a497c59;
+  grid-template-columns: 1fr;
+  grid-template-rows: 7rem 31rem;
 }
 
+.adverts h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  height: 25px;
+}
+.adverts p {
+  font-size: 1.6rem;
+}
+.adverts img {
+  width: 100%;
+  height: 100%;
+}
 #footer {
   display: grid;
   grid-column: 1/5;
